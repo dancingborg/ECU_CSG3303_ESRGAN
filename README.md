@@ -1,4 +1,4 @@
-# Citation
+# Reference
 <!--
     @article{wang2018esrgan,
         author={Wang, Xintao and Yu, Ke and Wu, Shixiang and Gu, Jinjin and Liu, Yihao and Dong, Chao and Loy, Chen Change and Qiao, Yu and Tang, Xiaoou},
