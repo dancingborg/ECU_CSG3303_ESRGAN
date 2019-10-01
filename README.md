@@ -1,3 +1,17 @@
+# Introduction
+
+- This is a forked repo of [ESRGAN](https://github.com/xinntao/ESRGAN) by [xinntao](https://github.com/xinntao).
+- This repo was adapted to work on a Nvidia P400 on Ubuntu 18.04 x64 with CUDA 10
+
+# Dependencies
+```
+sudo apt install python3 python3-pip
+sudo apt install cuda nvidia-cuda-toolkit
+pip3 install numpy opencv-python lmdb pyyaml tb-nightly future
+pip3 install torch torchvision
+sudo dpkg --configure -a && sudo apt -f install
+```
+
 # Reference
 <!--
     @article{wang2018esrgan,
