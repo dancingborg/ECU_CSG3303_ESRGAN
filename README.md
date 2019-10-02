@@ -4,14 +4,12 @@
 - This repo was adapted to work on a Nvidia P400 on Ubuntu 18.04 x64 with CUDA 10
 
 # Installation
-```
-sudo apt install python3 python3-pip git
-sudo apt install cuda nvidia-cuda-toolkit
-pip3 install numpy opencv-python lmdb pyyaml tb-nightly future
-pip3 install torch torchvision
-sudo dpkg --configure -a && sudo apt -f install
-git clone git@github.com:dancingborg/ECU_CSG3303_ESRGAN.git esrgan
-```
+1. `sudo apt install python3 python3-pip git`
+2. `sudo apt install cuda nvidia-cuda-toolkit`
+3. `pip3 install numpy opencv-python lmdb pyyaml tb-nightly future`
+4. `pip3 install torch torchvision`
+5. `sudo dpkg --configure -a && sudo apt -f install`
+6. `git clone git@github.com:dancingborg/ECU_CSG3303_ESRGAN.git esrgan`
 
 # Reference
 <!--
