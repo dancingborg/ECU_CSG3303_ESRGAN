@@ -3,7 +3,7 @@
 - This is a forked repo of [ESRGAN](https://github.com/xinntao/ESRGAN) by [xinntao](https://github.com/xinntao).
 - This repo was adapted to work on a Nvidia P400 on Ubuntu 18.04 x64 with CUDA 10
 
-# Dependencies
+# Installation
 ```
 sudo apt install python3 python3-pip git
 sudo apt install cuda nvidia-cuda-toolkit
