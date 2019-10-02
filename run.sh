@@ -1,12 +1,18 @@
 #!/bin/bash
-# clear local input and output  directories in preparation for import
+echo
+echo 'Clearing local input/ and output/ directories.'
 rm -rv input/*
 rm -rv output/*
-# copy basicSR resultant model if present
+echo
+echo 'Copying model trained with basicSR if present'
 cp -v ../basicSR/experiments/TRAINED/models/latest_G.pth ./models/
-# copy input files for testing
-cp -vr /volume1/transfer/Optometer/ESRGAN-Input/* ./input
-# run the test program
+echo
+echo 'Copying files to local input directory'
+rsync -zvah --no-p --no-g /volume1/transfer/Optometer/ESRGAN-Input/ ./input
+echo
+echo 'Executing ESRGAN'
 python3 test.py
-# copy output files
-cp -vr ./output/* /volume1/transfer/Optometer/ESRGAN-Output
+echo
+echo 'Copying output files back out from local directory'
+rsync -zvah --no-p --no-g ./output/ /volume1/transfer/Optometer/ESRGAN-Output/
+echo
