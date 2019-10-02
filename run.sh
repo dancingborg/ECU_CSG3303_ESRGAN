@@ -16,3 +16,4 @@ echo
 echo 'Copying output files back out from local directory'
 rsync -zvah --no-p --no-g ./output/ /volume1/transfer/Optometer/ESRGAN-Output/
 echo
+python3 calculate_PSNR_SSIM.py
