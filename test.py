@@ -6,7 +6,7 @@ import numpy as np
 import torch
 import RRDBNet_arch as arch
 
-MODEL_PATH = "models/RRDB_ESRGAN_x4.pth"
+MODEL_PATH = "models/latest_G.pth"
 DEVICE = torch.device("cuda")
 # DEVICE = torch.DEVICE('cpu')
 
