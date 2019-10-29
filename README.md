@@ -1,3 +1,6 @@
+# Archival Notice
+**This repository is deprecated and archived because it now forms part of [dancingborg/ECU_CSG3303_Optometer](https://github.com/dancingborg/ECU_CSG3303_Optometer).**
+
 # Introduction
 
 - This is a forked repo of [ESRGAN](https://github.com/xinntao/ESRGAN) by [xinntao](https://github.com/xinntao).
